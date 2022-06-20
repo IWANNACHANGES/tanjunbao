@@ -1,0 +1,9 @@
+
+node_modules/
+build/*
+dist/*
+weapp/*
+
+.umi
+.umi-production
+.umi-test

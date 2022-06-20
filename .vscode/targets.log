@@ -1,0 +1,322 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-apple-darwin11.3.0
+ 
+
+# Make data base, printed on Wed Jun 15 15:29:28 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /Users/tanjunbao/Downloads/sae/dcl-frontend
+# makefile
+SHELL = /bin/sh
+# makefile (from `env.mk', line 18)
+HELM_LOCAL_REPO = local-repo
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+_ = /usr/bin/make
+# makefile (from `env.mk', line 4)
+FRONTEND_APP_PUBLISH_TARGETS = $(addprefix publish-,$(FRONTEND_APPS))
+# makefile (from `env.mk', line 1)
+MAKEFILE_LIST :=  Makefile env.mk
+# makefile (from `env.mk', line 7)
+DOCKER_REGISTERY = registry.sensetime.com/senseautoempower
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+__CFBundleIdentifier = com.microsoft.VSCode
+# environment
+INFOPATH = /opt/homebrew/share/info:
+# environment
+P9K_SSH = 0
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/jp/50jj7fzn6kn3ksw68qy2ctkr6rm264/T/vscode-ipc-d2b01798-5b1f-44ed-94f6-c7cfdf0b88e2.sock
+# environment
+VSCODE_CWD = /
+# environment
+PATH = /Library/Frameworks/Python.framework/Versions/2.7/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin
+# environment
+LSCOLORS = Gxfxcxdxbxegedabagacad
+# makefile (from `env.mk', line 6)
+DOCKER = docker
+# makefile (from `env.mk', line 10)
+KIND_CLUSTER_NAME = sensegear
+# makefile (from `env.mk', line 15)
+HELM = helm
+# makefile (from `env.mk', line 17)
+HELM_REPO = sensegear
+# environment
+LaunchInstanceID = 9CE063BC-F495-42CA-A60F-D8AB1D78C1C9
+# environment
+VSCODE_LOG_STACK = false
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# makefile (from `env.mk', line 1)
+FRONTEND_APPS = dcp-storage dcp-phoenix dcp-operation dcp-knowledge-base sg-passport
+# environment
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.QebOMMHRYn/Listeners
+# automatic
+%F = $(notdir $%)
+# makefile (from `env.mk', line 13)
+NPM_CLIENT = npm
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+PWD = /Users/tanjunbao/Downloads/sae/dcl-frontend
+# environment
+HOMEBREW_CELLAR = /opt/homebrew/Cellar
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+MANPATH = /opt/homebrew/share/man::
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /Users/tanjunbao
+# default
+MAKEFILEPATH := /Applications/Xcode.app/Contents/Developer/Makefiles
+# environment
+VSCODE_CODE_CACHE_PATH = /Users/tanjunbao/Library/Application Support/Code/CachedData/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
+# environment
+LOGNAME = tanjunbao
+# makefile (from `env.mk', line 12)
+YARN = yarn
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+ZSH = /Users/tanjunbao/.oh-my-zsh
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+XPC_FLAGS = 0x0
+# default
+MAKE = $(MAKE_COMMAND)
+# makefile (from `env.mk', line 3)
+FRONTEND_APP_DOCKER_TARGETS = $(addprefix docker-,$(FRONTEND_APPS))
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 1
+# default
+MAKE_VERSION := 3.81
+# environment
+USER = tanjunbao
+# makefile
+.DEFAULT_GOAL := init-env
+# environment
+HOMEBREW_BOTTLE_DOMAIN = https://mirrors.ustc.edu.cn/homebrew-bottles
+# environment
+LESS = -R
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := /Applications/Xcode.app/Contents/Developer/usr/bin/make
+# default
+.VARIABLES := 
+# environment
+TMPDIR = /var/folders/jp/50jj7fzn6kn3ksw68qy2ctkr6rm264/T/
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /Users/tanjunbao/Library/Application Support/Code/1.67.2-main.sock
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.10217651.10217657
+# environment
+HOMEBREW_PREFIX = /opt/homebrew
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# makefile (from `Makefile', line 3)
+HELMFILE = helmfile
+# automatic
++F = $(notdir $+)
+# environment
+HOMEBREW_REPOSITORY = /opt/homebrew
+# makefile (from `env.mk', line 9)
+KIND = kind
+# environment
+__CF_USER_TEXT_ENCODING = 0xD8A08C4:0x0:0x0
+# environment
+COMMAND_MODE = unix2003
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# makefile (from `env.mk', line 2)
+FRONTEND_APP_ARTIFACT_TARGETS = $(addprefix build-,$(FRONTEND_APPS))
+# environment
+PAGER = less
+# environment
+LC_ALL = C
+# environment
+SECURITYSESSIONID = 186a5
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+MAKELEVEL := 0
+# makefile (from `env.mk', line 16)
+HELM_UPGRADE = $(HELM) upgrade --install --timeout 60s
+# environment
+LANG = C
+# environment
+VSCODE_PID = 741
+# variable set hash-table stats:
+# Load=89/1024=9%, Rehash=0, Collisions=2/115=2%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 16777234, inode 937113): 14 files, no impossibilities.
+
+# 14 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+info-%:
+#  commands to execute (from `Makefile', line 8):
+	$(eval SYSTEM = $(shell echo $* | cut -d - -f 1))
+	$(eval APP = $(shell echo $* | cut -d - -f 2))
+	
+
+package-%: info-%
+#  commands to execute (from `Makefile', line 12):
+	$(MAKE) -C nodejs docker-$*
+	
+
+publish-%: info-%
+#  commands to execute (from `Makefile', line 15):
+	$(MAKE) -C nodejs publish-$*
+	
+
+# 3 implicit rules, 0 (0.0%) terminal.
+
+# Files
+
+init-env: .init-env
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 18):
+	${NPM_CLIENT} config set registry https://registry.npm.taobao.org/
+	${NPM_CLIENT} config set @sensetime:registry "https://npm-registry.sensetime.com"
+	cd nodejs && ${NPM_CLIENT} install 
+	cd nodejs/packages/master && ${NPM_CLIENT} install 
+	cd nodejs/packages/annotator && ${NPM_CLIENT} install 
+	
+
+all:
+#  Phony target (prerequisite of .PHONY).
+#  Command-line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+.PHONY: all clean list
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-12 18:16:26
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 28):
+	$(MAKE) -C helm clean
+	$(MAKE) -C nodejs clean
+	
+
+list:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+.init-env:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 25):
+	touch .init-env
+	
+
+# Not a target:
+env.mk:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-12 18:16:26
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# files hash-table stats:
+# Load=10/1024=1%, Rehash=0, Collisions=2/27=7%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 2
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4080 / max = 4080 / min = 4080 / avg = 4080
+
+# Finished Make data base on Wed Jun 15 15:29:28 2022
+
+ 

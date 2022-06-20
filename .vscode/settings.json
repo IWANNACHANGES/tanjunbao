@@ -1,0 +1,134 @@
+{
+  // https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
+  // 不同格式文件对应formatter规则
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      // import 自动排序
+      "source.organizeImports": true,
+      // formatter 插件
+      "source.fixAll.eslint": true
+    }
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true,
+      "source.fixAll.eslint": true
+    }
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true,
+      "source.fixAll.eslint": true
+    }
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true,
+      "source.fixAll.eslint": true
+    }
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true,
+      "source.fixAll.eslint": true
+    }
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true,
+      "source.fixAll.eslint": true
+    }
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true,
+      "source.fixAll.eslint": true
+    }
+  },
+  // https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint
+  "[less]": {
+    "editor.defaultFormatter": "stylelint.vscode-stylelint",
+    "editor.formatOnSaveMode": "modifications",
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true,
+      "source.fixAll": true,
+      "source.fixAll.stylelint": true
+    }
+  },
+  "[css]": {
+    "editor.defaultFormatter": "stylelint.vscode-stylelint",
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true,
+      "source.fixAll.stylelint": true
+    }
+  },
+  // stylelint 校验的文件
+  "stylelint.validate": ["css", "less", "postcss"],
+  // 保存自动formatter
+  "editor.formatOnSave": true,
+  // 行结束用LF格式
+  "prettier.endOfLine": "lf",
+  // https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker
+  // codespell 单词
+  "cSpell.words": [
+    "antd",
+    "REGS",
+    "sensebee"
+  ],
+  // https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments
+  // comments 配置
+  "better-comments.tags": [
+    {
+      "tag": "!",
+      "color": "#FF2D00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "?",
+      "color": "#3498DB",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "//",
+      "color": "#474747",
+      "strikethrough": true,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "todo",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "*",
+      "color": "#98C379",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    }
+  ]
+}
